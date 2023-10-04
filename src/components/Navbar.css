@@ -1,0 +1,53 @@
+.main-container{
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #d8ebf6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header{
+  display: flex;
+  width: 50%;
+  height: 5rem;
+
+  align-items: center;
+  font-weight: 500;
+justify-content: space-around;
+
+}
+.rel, .brands{
+  text-decoration: none;
+  color: rgb(71, 74, 76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input[type=text] {
+  background: none;
+  border-radius: 1rem;
+  font-size: 16px;
+   border: none;
+  padding: 10px 5px 10px 20px;
+  outline: none;
+  
+}
+.searchbar{
+  padding-right: 5px;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+@media (max-width: 1050px) {
+  .header{
+    width:100%;
+  }
+}
+@media (max-width: 550px){
+  .header .rel{
+  display: none;
+  }
+  .header .brands{
+    display: none;
+  }
+}

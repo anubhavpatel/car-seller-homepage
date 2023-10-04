@@ -1,0 +1,49 @@
+.pagination {
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 3rem;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #d8ebf6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pagination-btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.m button {
+    width: 30px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0 7px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: #ebf3f7;
+}
+
+.m button.active {
+    font-weight: 900;
+   border: none;
+    background: #21a0ef;
+    color: white;
+   
+}
+.next , .prev{
+    border: none;
+    background: transparent;
+   margin-right: 1rem;
+   margin-left: 1rem;
+   cursor: pointer;
+   border: none;
+   background-color: #ebf3f7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 6px;
+   height: 30px;
+}
